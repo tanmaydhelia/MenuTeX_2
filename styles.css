@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito+Sans:wght@600&family=Source+Sans+3:wght@300&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    background-color: rgb(194, 194, 194); 
+    width: 434px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+     padding: 45px;
+}
+
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display:flex;
+}
+
+.infoContainer{
+    background-color: lightpink;
+    height: 78vh;
+    width: 80vw ;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prodInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 20px;
+}
+
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+    font-size: 10px;
+}
+
+.moreabout{
+    font-size: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 23px;
+    font-weight: 400;
+}
+
+.buttons{
+    margin:34px;
+}
+
+.buttons button{
+    padding: 8px 13px;
+    border-width: medium;
+    border-radius: 23px;
+    color: white;
+    background-color: darkcyan;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px 27px;
+    cursor:pointer;
+}
+
+.buttons button:hover{
+    color: darkcyan;
+    background-color: white;
+}
+
+.prodPic img{
+height: 78vh;
+
+}
+
+/* Contact.html CSS below */
+
+.contactForm h1{
+    font-family: 'Fira Sans', sans-serif; 
+}
