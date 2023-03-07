@@ -40,7 +40,7 @@
 }
 
 .infoContainer{
-    background-color: lightpink;
+    /* background-color: lightpink; */
     height: 78vh;
     width: 80vw ;
     margin: 144px auto;
@@ -60,17 +60,19 @@
 }
 
 .name{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bold;
     font-family: 'Fira Sans', sans-serif;
+    padding: 10px0 0 5px 20px;
 }
 
 .about{
-    font-size: 10px;
+    font-size: 25px;
+    color: darkcyan;
 }
 
 .moreabout{
-    font-size: 10px;
+    font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
     margin-top: 23px;
     font-weight: 400;
@@ -104,6 +106,59 @@ height: 78vh;
 
 /* Contact.html CSS below */
 
-.contactForm h1{
+.contactForm{
     font-family: 'Fira Sans', sans-serif; 
+    padding: 0 34px;
+    padding-top: 144px;
 }
+
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 20px;
+}
+
+.contactForm form div{
+    padding:10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width:26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size:8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.btn-btn-primary{
+    padding: 8px 13px;
+    border-width: medium;
+    border-radius: 23px;
+    color: white;
+    background-color: darkcyan;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px 27px;
+    cursor:pointer;
+}
+
+.btn-btn-primary:hover{
+    color: darkcyan;
+    background-color: white;
+}
+
